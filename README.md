@@ -18,3 +18,6 @@ Jadi kalau ada banyak CPU mau akses memory barengan, system controller yang meng
 - Semua komunikasi antar prosesor dilakukan lewat System Bus.
 - Setiap Slave memiliki Memory masing-masing.
 - I/O Devices juga terhubung ke System Bus.
+
+  - Kesimpulannya: Symmetric Multiprocessor (SMP): Semua CPU setara, berbagi memori dan I/O secara bersama-sama lewat sistem bus yang sama, diatur oleh system controller.
+Asymmetric Multiprocessor (AMP): Ada satu Master Processor yang mengontrol sistem, dan Slave Processor hanya menjalankan perintah dari Master, masing-masing dengan memori sendiri.
